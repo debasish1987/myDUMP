@@ -1,0 +1,75 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+
+ 
+ 
+    <style name="textviewTitle">
+        <item name="@android:textSize">20sp</item>
+        <item name="@android:textColor">#ffffff</item>
+        <item name="@android:layout_marginLeft">20dp</item>
+        <item name="@android:layout_gravity">center</item>
+    </style>
+
+    <style name="textviewChangePassword">
+        <item name="@android:layout_marginTop">16dp</item>
+        <item name="@android:textSize">18sp</item>
+        <item name="@android:textColor">@color/changepassword</item>
+    </style>
+
+    <style name="textviewRegisterSR">
+        <item name="@android:layout_marginTop">3dp</item>
+        <item name="@android:textSize">18sp</item>
+        <item name="@android:textColor">@color/register</item>
+    </style>
+
+    <style name="textviewAssignSR">
+        <item name="@android:layout_marginTop">3dp</item>
+        <item name="@android:textSize">18sp</item>
+        <item name="@android:textColor">@color/assign</item>
+    </style>
+    
+    <style name="textviewResolveSR">
+        <item name="@android:layout_marginTop">3dp</item>
+        <item name="@android:textSize">18sp</item>
+        <item name="@android:textColor">@color/resolve</item>
+    </style>
+    
+    <style name="textviewApproval">
+        <item name="@android:textSize">12sp</item>
+        <item name="@android:textColor">@color/line</item>
+        <item name="@android:singleLine">true</item>
+        <item name="@android:ellipsize">end</item>
+    </style>
+
+    <style name="textviewApprovalTitle">
+        <item name="@android:textSize">12sp</item>
+        <item name="@android:textStyle">bold</item>
+        <item name="@android:textColor">@color/line</item>
+        <item name="@android:singleLine">true</item>
+        <item name="@android:ellipsize">end</item>
+    </style>
+    
+    <style name="textviewApprovalName">
+        <item name="@android:singleLine">true</item>
+        <item name="@android:ellipsize">end</item>
+        <item name="@android:textSize">14sp</item>
+        <item name="@android:textColor">#242424</item>
+    </style>
+
+</resources>

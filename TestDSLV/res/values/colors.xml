@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="rippleWhite">#ffffff</color>
+    <color name="rippleGrey">#585858</color>
+    <color name="changepassword">#d6760e</color>
+    <color name="btn_bg_cp">#F7A245</color>
+    <color name="btn_bg_reg">#5B8DD4</color>
+    <color name="register">#549dff</color>
+    <color name="assign">#11a8ab</color>
+    <color name="resolve">#02b375</color>
+    <color name="statistics">#efa131</color>
+    <color name="myrequest">#904caf</color>
+    <color name="register_low">#2b5ca0</color>
+    <color name="assign_low">#12797b</color>
+    <color name="resolve_low">#02714a</color>
+    <color name="statistics_low">#85591b</color>
+    <color name="myrequest_low">#61297a</color>
+    <color name="line">#959595</color>
+    <color name="hintcolor">#808080</color>
+    <color name="edittextbox">#b7b7b7</color>
+    <color name="btn_bg_dialog">#1ea1d7</color>
+
+    <drawable name="transparent">#00FFFFFF</drawable>
+    <drawable name="default_pressed">#10000000</drawable>
+
+    <color name="sr_priority_color">#FF0000</color>
+    <color name="sr_priority_high_color">#F39F61</color>
+    <color name="sr_priority_normal_color">#FBF262</color>
+    <color name="sr_priority_low_color">#C4F185</color>
+    <color name="list_background_pressed">#cccccc</color>
+
+</resources>

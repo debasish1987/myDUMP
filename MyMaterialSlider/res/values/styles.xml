@@ -1,0 +1,53 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+     <!-- MES slider -->
+    <style name="MESslider" parent="MaterialNavigationDrawerTheme.Light.DarkActionBar">
+        <item name="colorPrimary">#8bc34a</item>
+        <item name="colorPrimaryDark">#558b2f</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="drawerType">@integer/DRAWERTYPE_CUSTOM</item>
+        <item name="rippleBackport">true</item>
+    </style>
+    
+    <!-- Custom Drawer Header -->
+    <style name="CustomHeaderLight" parent="MaterialNavigationDrawerTheme.Light.DarkActionBar">
+        <item name="colorPrimary">#8bc34a</item>
+        <item name="colorPrimaryDark">#558b2f</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="drawerType">@integer/DRAWERTYPE_CUSTOM</item>
+    </style>
+
+    <!-- Kitkat Traslucent Status bar -->
+    <style name="KitkatStatusBar" parent="MaterialNavigationDrawerTheme.Light.DarkActionBar.TranslucentKitKatStatusBar">
+        <item name="colorPrimary">#8bc34a</item>
+        <item name="colorPrimaryDark">#558b2f</item>
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+    <!-- Ripple Backport support -->
+    <style name="RippleBackport" parent="MaterialNavigationDrawerTheme.Light.DarkActionBar">
+        <item name="colorPrimary">#8bc34a</item>
+        <item name="colorPrimaryDark">#558b2f</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <!-- <item name="drawerType">@integer/DRAWERTYPE_NO_HEADER</item> -->
+        <item name="rippleBackport">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.semco.ipo.MainActivity" >
+
+    <!--
+         <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    -->
+    <item
+        android:id="@+id/java"
+        android:title="Using JAVA"/>
+    <item
+        android:id="@+id/thread"
+        android:title="Using Thread in JAVA"/>
+    <item
+        android:id="@+id/jniA"
+        android:title="Using JNI"/>
+    <item
+        android:id="@+id/jniThreadA"
+        android:title="Using Thread in JNI"/>
+    <item
+        android:id="@+id/rsA"
+        android:title="Using RS"/>
+
+</menu>

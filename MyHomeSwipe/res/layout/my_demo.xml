@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/image001"
+>
+	
+	<com.test.lib.SwipeView  
+	    android:id="@+id/swipe_view"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="0dp"
+	    android:layout_weight="0.96"
+	/>
+
+	<com.test.lib.PageControl
+	    android:id="@+id/page_control"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="0.04"
+	    android:background="@android:color/transparent"
+	    android:gravity="center_horizontal"
+	    android:orientation="horizontal" />
+
+</LinearLayout>

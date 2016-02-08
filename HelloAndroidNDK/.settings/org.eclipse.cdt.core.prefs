@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.1839876888/PATH/delimiter=;
+environment/project/com.android.toolchain.gcc.1839876888/PATH/operation=replace
+environment/project/com.android.toolchain.gcc.1839876888/PATH/value=C\:\\Program Files\\Java\\jdk1.7.0_75\\bin;E\:\\adt-bundle-windows-x86-20130729\\Old_sdk_JB\\sdk\\platform-tools;E\:\\adt-bundle-windows-x86-20130729\\Old_sdk_JB\\sdk\\tools;C\:\\Users\\debasish\\AppData\\Roaming\\npm;E\:\\ANDROID_SDK_For_JAVA_7\\android-ndk-r10e;
+environment/project/com.android.toolchain.gcc.1839876888/append=true
+environment/project/com.android.toolchain.gcc.1839876888/appendContributed=true
